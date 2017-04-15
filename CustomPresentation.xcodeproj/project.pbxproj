@@ -12,6 +12,11 @@
 		F54FBAE51EA28DB900C9B5AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54FBAE31EA28DB900C9B5AE /* Main.storyboard */; };
 		F54FBAE71EA28DB900C9B5AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54FBAE61EA28DB900C9B5AE /* Assets.xcassets */; };
 		F54FBAEA1EA28DB900C9B5AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54FBAE81EA28DB900C9B5AE /* LaunchScreen.storyboard */; };
+		F54FBB071EA28E6F00C9B5AE /* FormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54FBB051EA28E6F00C9B5AE /* FormVC.swift */; };
+		F54FBB081EA28E6F00C9B5AE /* FormVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54FBB061EA28E6F00C9B5AE /* FormVC.xib */; };
+		F54FBB0C1EA28E7B00C9B5AE /* DismissingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54FBB091EA28E7B00C9B5AE /* DismissingTransition.swift */; };
+		F54FBB0D1EA28E7B00C9B5AE /* FormPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54FBB0A1EA28E7B00C9B5AE /* FormPresentationController.swift */; };
+		F54FBB0E1EA28E7B00C9B5AE /* PresentingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54FBB0B1EA28E7B00C9B5AE /* PresentingTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		F54FBAE61EA28DB900C9B5AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F54FBAE91EA28DB900C9B5AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F54FBAEB1EA28DB900C9B5AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54FBB051EA28E6F00C9B5AE /* FormVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormVC.swift; sourceTree = "<group>"; };
+		F54FBB061EA28E6F00C9B5AE /* FormVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormVC.xib; sourceTree = "<group>"; };
+		F54FBB091EA28E7B00C9B5AE /* DismissingTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissingTransition.swift; sourceTree = "<group>"; };
+		F54FBB0A1EA28E7B00C9B5AE /* FormPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormPresentationController.swift; sourceTree = "<group>"; };
+		F54FBB0B1EA28E7B00C9B5AE /* PresentingTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentingTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,12 @@
 			children = (
 				F54FBADF1EA28DB900C9B5AE /* AppDelegate.swift */,
 				F54FBAE11EA28DB900C9B5AE /* ViewController.swift */,
+				F54FBB091EA28E7B00C9B5AE /* DismissingTransition.swift */,
+				F54FBB0A1EA28E7B00C9B5AE /* FormPresentationController.swift */,
+				F54FBB0B1EA28E7B00C9B5AE /* PresentingTransition.swift */,
 				F54FBAE31EA28DB900C9B5AE /* Main.storyboard */,
+				F54FBB051EA28E6F00C9B5AE /* FormVC.swift */,
+				F54FBB061EA28E6F00C9B5AE /* FormVC.xib */,
 				F54FBAE61EA28DB900C9B5AE /* Assets.xcassets */,
 				F54FBAE81EA28DB900C9B5AE /* LaunchScreen.storyboard */,
 				F54FBAEB1EA28DB900C9B5AE /* Info.plist */,
@@ -124,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54FBB081EA28E6F00C9B5AE /* FormVC.xib in Resources */,
 				F54FBAEA1EA28DB900C9B5AE /* LaunchScreen.storyboard in Resources */,
 				F54FBAE71EA28DB900C9B5AE /* Assets.xcassets in Resources */,
 				F54FBAE51EA28DB900C9B5AE /* Main.storyboard in Resources */,
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54FBB0D1EA28E7B00C9B5AE /* FormPresentationController.swift in Sources */,
 				F54FBAE21EA28DB900C9B5AE /* ViewController.swift in Sources */,
 				F54FBAE01EA28DB900C9B5AE /* AppDelegate.swift in Sources */,
+				F54FBB0C1EA28E7B00C9B5AE /* DismissingTransition.swift in Sources */,
+				F54FBB071EA28E6F00C9B5AE /* FormVC.swift in Sources */,
+				F54FBB0E1EA28E7B00C9B5AE /* PresentingTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +322,7 @@
 				F54FBAF01EA28DB900C9B5AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
